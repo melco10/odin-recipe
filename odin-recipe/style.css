@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,300;0,500;0,700;1,100&display=swap');
+
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body{
+    background: black;
+    color: white;
+    height: 100vh;
+}
+/* HEADER */
+header{
+    margin: 30px;
+    width: 100%;
+    color: rgb(255, 255, 255);
+    height: 80px;
+}
+.navbar {
+    display: flex;
+    max-width: 1200px;
+    margin: 0 auto;
+    align-items: center;
+    height: 70px;
+}
+
+.menu li{
+    text-transform: uppercase;
+    list-style: none;
+    margin-left: 20px;
+    font-size: 1rem;
+    transition:  all 0.3 ease 0s;
+    cursor: pointer;
+}
+
+.menu li:hover{
+    color: darkorange;
+}
+/* HEADER */
+.container{
+    display: grid;
+    margin-left: 100px;
+    grid-template-columns: 60% 35%;
+}
+.container > div{
+    background: rgb(160, 157, 152);
+    padding: 1em;
+}
+
+.container > div:nth-child(odd){
+    background: #ddd;
+}
+
+img{
+    vertical-align: middle;
+}
+
+.Ingredients{
+    margin: 1rem;
+    color: black;
+}
+
+ol li  {
+    margin: 1rem;
+    color: black;
+}
+
+.h1title{
+    color: rgb(228, 156, 63);
+}
+
+h2{
+    text-transform: uppercase;
+    color: black;
+}
